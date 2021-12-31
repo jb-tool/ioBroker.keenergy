@@ -1,0 +1,78 @@
+{
+    "common": {
+        "name": "keenergy",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "titleLang": {
+            "en": "KeEnergy",
+            "de": "KeEnergy",
+            "ru": "KeEnergy",
+            "pt": "KeEnergy",
+            "nl": "KeEnergy",
+            "fr": "KeEnergy",
+            "it": "KeEnergy",
+            "es": "KeEnergy",
+            "pl": "KeEnergy",
+            "zh-cn": "KeEnergy"
+        },
+        "desc": {
+            "en": "Adapter for KEBA KeEnergy Web HMI - Remote Control",
+            "de": "Adapter for KEBA KeEnergy Web HMI - Remote Control",
+            "ru": "Adapter for KEBA KeEnergy Web HMI - Remote Control",
+            "pt": "Adapter for KEBA KeEnergy Web HMI - Remote Control",
+            "nl": "Adapter for KEBA KeEnergy Web HMI - Remote Control",
+            "fr": "Adapter for KEBA KeEnergy Web HMI - Remote Control",
+            "it": "Adapter for KEBA KeEnergy Web HMI - Remote Control",
+            "es": "Adapter for KEBA KeEnergy Web HMI - Remote Control",
+            "pl": "Adapter for KEBA KeEnergy Web HMI - Remote Control",
+            "zh-cn": "Adapter for KEBA KeEnergy Web HMI - Remote Control"
+        },
+        "authors": [
+            "jb-tool <iobroker@joshua.billert.email>"
+        ],
+        "keywords": [
+            "ioBroker",
+            "template",
+            "Smart Home",
+            "home automation"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "keenergy.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/jb-tool/ioBroker.keenergy/master/admin/keenergy.png",
+        "readme": "https://github.com/jb-tool/ioBroker.keenergy/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "climate-control",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "poll",
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=2.0.0"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
